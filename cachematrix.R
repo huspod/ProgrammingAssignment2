@@ -1,7 +1,6 @@
 ##  The pair of functions 'makeCacheMatrix' and 'cacheSolve' cache the inverse of a matrix. Assumes matrix supplied 
-## is invertible. 'MakeCacheMatrix' will return cached inverse if it has already been previously computed, and return 
-## it in 'cacheSolve'.  If not previously calculated, matrix inverse will be computed in 'cacheSolve' using the 
-## 'solve' function.
+## is invertible. 'cacheSolve' calls 'MakeCacheMatrix' to determine if matrix inverse has already been previously 
+## computed. Otherwise, matrix inverse is computed in using the 'solve' function.
 
 
 ## Create a matrix object that can cache its inverse.  Returns a list
